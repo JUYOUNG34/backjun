@@ -8,10 +8,10 @@ public class test_2675 {
 		for(int i = 0; i < T; i++) {
 	
 			int R = a.nextInt();
-			String S = a.next();	// nextLine() 을 쓰면 error!
+			String S = a.next();	
 			
 			for(int j = 0; j < S.length(); j++) {           
-				for(int k = 0; k < R; k++) {	// R 만큼 반복 출력
+				for(int k = 0; k < R; k++) {	
 					System.out.print(S.charAt(j));
 				}
 			}
